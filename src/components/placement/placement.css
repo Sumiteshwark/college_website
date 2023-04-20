@@ -1,0 +1,43 @@
+.place{
+    padding: 40px 70px;
+}
+
+.place_img{
+    margin: 0;
+    padding: 0;
+}
+
+.place img{
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.place_para{
+    background-color: #666;
+    color: white;
+    width: 90%;
+    margin-top: -6px;
+    padding: 6px;
+}
+
+.place_heding p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(211, 207, 207);
+    margin: 20px 0 50px;
+    padding: 0px 0 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.react-multiple-carousel__arrow{
+    opacity: 0 !important;
+}
+
+@media screen and (max-width:786px) {
+    .place{
+        padding: 30px 15px;
+    }
+}
